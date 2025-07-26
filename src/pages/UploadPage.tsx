@@ -49,8 +49,8 @@ export default function UploadPage() {
     formData.append('file', file);
 
     try {
-      // Zde by byla skutečná URL webhooku z n8n
-      const webhookUrl = 'https://your-n8n-webhook-url.com/webhook';
+      // Zde je vaše skutečná URL webhooku z n8n
+      const webhookUrl = 'https://n8n.srv882016.hstgr.cloud/webhook/ea5674e0-5091-4c76-9e36-595d14b81d4f';
       
       const response = await fetch(webhookUrl, {
         method: 'POST',
